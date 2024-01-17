@@ -1,0 +1,19 @@
+{
+  "name": "e-invoice-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report:open": "allure serve",
+    "report:generate": "allure generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mmisty/cypress-allure-adapter": "^0.16.2",
+    "allure-commandline": "^2.25.0",
+    "cypress": "^13.6.3",
+    "cypress-parallel": "^0.14.0"
+  }
+}
