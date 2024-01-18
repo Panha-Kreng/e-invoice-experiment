@@ -10,14 +10,14 @@ Current testing type:
 Clone this project via ssh:
 
 ```bash
-  git clone git@github.com:Panha-Kreng/e-invoice-experiment.git
+git clone git@github.com:Panha-Kreng/e-invoice-experiment.git
 ```
 
 Install dependencies using npm:
 
 ```bash
-  cd e-invoice-experiment
-  npm install
+cd e-invoice-experiment
+npm install
 ```
 
 ## Running Tests
@@ -27,11 +27,11 @@ To run tests, run the following command:
 For CLI on chrome:
 
 ```bash
-  npm run cy:run:chrome
+npm run cy:run:chrome
 ```
 For headless ui:
 ```bash
-  npm run test:e2e
+npm run test:e2e
 ```
 
 ## Reporting
