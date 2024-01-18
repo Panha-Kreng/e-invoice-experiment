@@ -15,7 +15,9 @@
 
 // Import commands.js using ES2015 syntax:
 require('@mmisty/cypress-allure-adapter/support');
-import './commands'
+import './commands';
+import './cypress-image-diff';
+import './set-cookie';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
